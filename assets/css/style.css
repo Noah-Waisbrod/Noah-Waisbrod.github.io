@@ -140,6 +140,11 @@ h6 {
   }
 }
 
+.l-pad {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -459,7 +464,7 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 80px;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: #050d18;
 }
