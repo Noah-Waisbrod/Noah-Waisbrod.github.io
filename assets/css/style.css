@@ -1142,3 +1142,24 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+/* img container */
+.image-container {
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+  justify-content: center;
+}
+
+.image-container img {
+  width: 25%; /* Set each image to 1/3rd of the container width */
+  box-sizing: border-box; /* Include padding and border in width calculation */
+  margin: 10px; /* Add spacing between images */
+}
+
+/* Optional media query for additional styling on smaller screens */
+
+@media screen and (max-width: 768px) {
+  .image-container img {
+    width: 50%; /* Adjust width for smaller screens (optional) */
+  }
+}
